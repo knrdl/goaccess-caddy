@@ -1,4 +1,4 @@
-FROM alpine:3.20.0
+FROM alpine:3.20.3
 
 RUN apk add --no-cache caddy goaccess
 COPY Caddyfile entrypoint.sh /
